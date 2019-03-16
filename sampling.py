@@ -1,5 +1,5 @@
 from collections import Counter
-from imblearn.datasets import fetch_datasets
+#from imblearn.datasets import fetch_datasets Using Pandas instead of fetch from imblearn
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from imblearn.pipeline import make_pipeline as make_pipeline_imb
